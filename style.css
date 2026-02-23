@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Jua", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  background-color: #1f7abb;
+  color: #ffffff;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  text-align: center;
+}
+
+.tildes {
+  font-size: clamp(2.5rem, 10vw, 4rem);
+  line-height: 0.22;
+}
+
+.subtitle {
+  font-size: clamp(2rem, 8vw, 3.5rem);
+  margin-top: 1.5rem;
+}
