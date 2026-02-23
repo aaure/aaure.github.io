@@ -12,7 +12,9 @@ body {
   font-style: normal;
   background-color: #1f7abb;
   color: #ffffff;
-  min-height: 100vh;
+  height: 100vh;
+  height: 100dvh;
+  overflow: hidden;
   display: flex;
   justify-content: center;
   align-items: center;
