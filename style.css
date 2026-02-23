@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jua&display=block');
 
 * {
   margin: 0;
@@ -29,7 +29,7 @@ main {
   line-height: 0.22;
 }
 
-.subtitle {
+.title {
   font-size: clamp(2rem, 8vw, 3.5rem);
   margin-top: 1.5rem;
 }
